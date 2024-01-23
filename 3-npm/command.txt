@@ -1,0 +1,30 @@
+podemos criar packages.json:
+    npm init
+    npm init -y
+
+para instalar packages:
+    npm install <nome>
+
+onde buscar packages:
+    https://www.npmjs.com/
+
+para instalar pacotes apenas para dev env:
+    utilizar a flag --save-dev
+        ex: npm install --save-dev  chalk 
+
+para atualizar pacotes:
+    npm update <nome>
+
+para atualizar todos os pacotes:
+    npx npm-check-updates -u
+
+para adicionar comandos ao npm:
+    abrir package.json: adicioar o script na chave "scripts"
+
+para instalar um pacote global:
+    npm install -g <nome>
+    * pacotes globais ficam salvos dentro do Node
+    * pode acessar esses pacotes de todo local, via terminal
+
+para desinstalar um pacote:
+    npm uninstall <nome>

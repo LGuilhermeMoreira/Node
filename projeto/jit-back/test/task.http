@@ -1,0 +1,11 @@
+POST http://localhost:8000/cadastrar HTTP/1.1
+Content-Type: application/json
+
+{
+    "task": "terminar o back",
+    "date": "2024-01-23T16:30:00.000Z",  // ou forneça um valor de data válido se necessário
+    "taskStatus": "true"
+}
+
+
+###

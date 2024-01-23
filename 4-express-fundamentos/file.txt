@@ -1,0 +1,1 @@
+para executar o nodemon: nodemon <arquivo.js> localhost <porta>
