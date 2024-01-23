@@ -1,0 +1,62 @@
+/* TodoList.css */
+
+.TodoList {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.TodoList h1 {
+  text-align: center;
+  color: #333;
+}
+
+.TodoList form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.TodoList form div {
+  margin-bottom: 10px;
+}
+
+.TodoList form label {
+  font-weight: bold;
+}
+
+.TodoList form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.TodoList form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.TodoList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.TodoList ul li {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.TodoList ul li button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
