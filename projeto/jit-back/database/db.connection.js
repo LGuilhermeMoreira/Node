@@ -2,8 +2,7 @@ var mongoose = require('mongoose')
 
 var DB_URI = 'mongodb+srv://guilhermemoreira:JITTECHNOLOGY@task.ohstrlr.mongodb.net/?retryWrites=true&w=majority'
 try{
-    // Corrigir o nome da opção useNewUrlParser
-    mongoose.connect(DB_URI,{useNewUrlParser:true})
+    mongoose.connect(DB_URI)
 }
 catch (error){
     // Retornar ou lançar o erro capturado

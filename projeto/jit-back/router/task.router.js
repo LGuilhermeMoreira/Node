@@ -27,4 +27,8 @@ router.delete('/deletar/:id', (req,res,next) => {
     taskService.delete(req,res)
 })
 
+router.put('/concluir/:id', (req,res,next)=>{
+    taskService.conclude(req,res)
+})
+
 module.exports = router;
